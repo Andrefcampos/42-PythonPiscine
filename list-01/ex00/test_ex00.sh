@@ -7,7 +7,7 @@ echo "=== Testando ex00 - Hello.py ==="
 echo ""
 
 echo "Output do seu programa:"
-python3 ~/42/python/piscine/ex00/Hello.py | cat -e
+python3 Hello.py | cat -e
 echo ""
 
 echo "Output esperado (exemplo):"
@@ -18,7 +18,7 @@ echo "{'Hello': '42Paris!'}$"
 echo ""
 
 echo "Verificando norma:"
-~/.local/bin/flake8 ~/42/python/piscine/ex00/Hello.py
+flake8 Hello.py
 if [ $? -eq 0 ]; then
     echo "✅ Norma OK!"
 else

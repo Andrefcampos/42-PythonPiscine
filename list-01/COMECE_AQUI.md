@@ -156,7 +156,7 @@ Se tiver dúvidas:
 ## ⚡ Comando para começar AGORA:
 
 ```bash
-cd /home/andrefil/42/python/piscine/ex00
+cd /caminho/para/sua/pasta/piscine/ex00
 vim Hello.py
 # ou
 code Hello.py
