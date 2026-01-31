@@ -24,7 +24,7 @@ def minha_funcao(parametro):
 def main():
     """
     Função principal do programa.
-    
+
     Aqui você deve:
     - Processar argumentos (se necessário)
     - Chamar suas funções
